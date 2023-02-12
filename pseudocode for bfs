@@ -1,0 +1,9 @@
+Create a Queue (say Q)
+Mark Vertex V as Visited.
+Put V into Queue
+
+While Q is not empty
+	Remove the head of Q (Let it be Vertex U)
+	Iterate all Unvisited Neighbours of U 
+		Mark the neighbour as Visited
+		Enqueue the Neighbour into Q.
