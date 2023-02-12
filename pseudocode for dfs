@@ -1,0 +1,6 @@
+DFS(visited, u):
+    visited[u]=True
+    Print u
+    for each v in adj[u]:
+        if(visited[v]=False)
+            DFS(visited,v)
